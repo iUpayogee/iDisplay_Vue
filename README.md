@@ -48,3 +48,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
   const app = initializeApp(firebaseConfig);
 </script> -->
 """# iDisplay_Vue
+# iDisplay_Vue
