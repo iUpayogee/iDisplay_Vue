@@ -1,11 +1,35 @@
+git init
+git remote add orgin https://github.com/iUpayogee/iDisplay_Vue.git
+git remote -v
+git add .
+git commit -m "first Commit"
+git push orgin master
+
+
 # Upayogee Client Portal Development Notes
 
 dasa.upayogee.in
 
+
 ## Project setup
+npx browserslist@latest --update-db
+npm uninstall @vue/cli
+npm install -g @vue/cli
+
+npm update -g @vue/cli   
+
+yarn upgrade
+yarn add yarn
+
 ```
+yarn cache clean
 yarn install
+yarn info
+yarn 
+yarn start
 ```
+  
+export NODE_OPTIONS=--openssl-legacy-provider
 
 ### Compiles and hot-reloads for development
 ```
@@ -48,4 +72,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
   const app = initializeApp(firebaseConfig);
 </script> -->
 """# iDisplay_Vue
-# iDisplay_Vue
+
+git init
+git add .
+git commit
+git remote add origin https://github.com/iUpayogee/iDisplay_Vue.git
+git push -u origin master

@@ -3,6 +3,7 @@ import Layout from "../../../layouts/main";
 import appConfig from "@/app.config";
 import PageHeader from "@/components/page-header";
 
+// Import Data
 import { OveviewChart, activitiesData } from "./data";
 /**
  * Wallets component
@@ -49,6 +50,7 @@ export default {
       filterOn: [],
       sortBy: "id",
       sortDesc: false,
+      // Data Table - Rows of Data - Activity Orders
       fields: [
         {
           key: "id",
@@ -57,6 +59,7 @@ export default {
         },
         {
           key: "date",
+          label: "Date",
           sortable: true,
         },
         {
@@ -69,6 +72,7 @@ export default {
         },
         {
           key: "amount",
+          label: "Quantity",
           sortable: true,
         },
         {
@@ -372,6 +376,9 @@ export default {
               </b-tab>
               <b-tab title="Buy" disabled> </b-tab>
               <b-tab title="Sell" disabled> </b-tab>
+              <b-tab title="Options" disabled> </b-tab>
+              <b-tab title="Crypto" disabled> </b-tab>
+              <b-tab title="Bonds" disabled> </b-tab>
             </b-tabs>
           </div>
         </div>

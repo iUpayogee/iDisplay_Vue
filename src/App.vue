@@ -3,7 +3,6 @@
 </template>
 
 <script>
-import Post from './components/post.vue';
 export default {
   name: 'App',
   components: {
